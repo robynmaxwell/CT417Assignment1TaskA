@@ -16,10 +16,11 @@ public class Student {
     public ArrayList<Programme> sCourses;
 
 
-    public Student(String sName, int sAge, int sID) {
+    public Student(String sName, int sAge, int sID, DateTime sDOB) {
         this.sName= sName;
         this.sID=sID;
         this.sAge=sAge;
+        this.sDOB=sDOB;
         this.sModuleList=sModuleList;
         this.sUsername= sName.concat(Integer.toString(sAge));
     }
