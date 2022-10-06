@@ -9,13 +9,13 @@ import org.junit.jupiter.api.Test;
 
 public class ModuleTest {
 
-    Module module1;
+    Modules module1;
     Lecturer l1;
     ArrayList<Student> sList;
 
     @BeforeEach
     void setUp() {
-        module1= new Module("Software Engineering", "CT417");
+        module1= new Modules("Software Engineering", "CT417");
     }
 
     @Test
