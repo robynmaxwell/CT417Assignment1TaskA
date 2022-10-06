@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2948570b-57a4-4e88-ac4c-cc04f09141f6" name="Changes" comment="Changes to Modules class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LecturerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LecturerTest.java" afterDir="false" />
+    <list default="true" id="cef9326c-d108-4542-b7a6-c695a4bce66a" name="Changes" comment="Changes to Modules class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +57,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "a8db6b45d3b9a48b1f800226bf9cd593"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a8db6b45d3b9a48b1f800226bf9cd593&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.LecturerTest.testLecturerModulesGettersAndSetters">
+}</component>
+  <component name="RunManager" selected="Gradle.LecturerTest.testLecturerModulesGettersAndSetters (1)">
     <configuration name="CT417Assignment1TaskA [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -89,7 +89,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LecturerTest.testLecturerModulesGettersAndSetters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LecturerTest.testLecturerModulesGettersAndSetters (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LecturerTest.testLecturerModulesGettersAndSetters" />
+        <item itemvalue="Gradle.LecturerTest.testLecturerModulesGettersAndSetters (1)" />
         <item itemvalue="Gradle.CT417Assignment1TaskA [dependencies]" />
       </list>
     </recent_temporary>
