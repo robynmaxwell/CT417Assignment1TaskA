@@ -13,10 +13,10 @@ public class ProgrammeTest {
     Programme course;
     Student s1;
     Student s2;
-    Module m2;
-    Module m1;
+    Modules m2;
+    Modules m1;
     ArrayList<Student> studentList;
-    ArrayList<Module> modList;
+    ArrayList<Modules> modList;
 
     @BeforeEach
     void setUp() {
@@ -48,10 +48,10 @@ public class ProgrammeTest {
     @Test
     @DisplayName("Test getters and setters for student list")
     void testModuleListGetterAndSetter() {
-        m1= new Module("Software engineering","CT417" );
-        m2= new Module("Object Oriented Programming", "CT222");
+        m1= new Modules("Software engineering","CT417" );
+        m2= new Modules("Object Oriented Programming", "CT222");
 
-        modList= new ArrayList<Module>();
+        modList= new ArrayList<Modules>();
 
 
         modList.add(m1);
