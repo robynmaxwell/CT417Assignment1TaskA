@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2948570b-57a4-4e88-ac4c-cc04f09141f6" name="Changes" comment="test push">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Programme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Programme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProgrammeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProgrammeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CT417Assignment1TaskA" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664984168863</updated>
       <workItem from="1664984171209" duration="2499000" />
-      <workItem from="1664987560867" duration="1074000" />
+      <workItem from="1664987560867" duration="4678000" />
     </task>
     <task id="LOCAL-00001" summary="Finish TaskA">
       <created>1664986442832</created>
@@ -101,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664987012189</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test push">
+      <created>1664988645115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664988645115</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,16 +152,5 @@
     <MESSAGE value="Finish TaskA" />
     <MESSAGE value="test push" />
     <option name="LAST_COMMIT_MESSAGE" value="test push" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Student.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

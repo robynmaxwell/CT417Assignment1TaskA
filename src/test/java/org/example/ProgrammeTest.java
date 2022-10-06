@@ -13,11 +13,14 @@ public class ProgrammeTest {
     Programme course;
     Student s1;
     Student s2;
+    Module m2;
+    Module m1;
     ArrayList<Student> studentList;
+    ArrayList<Module> modList;
 
     @BeforeEach
     void setUp() {
-        course =  new Programme("", null, null, null);
+        course =  new Programme("ECE", null, null);
     }
 
     @Test
@@ -30,8 +33,8 @@ public class ProgrammeTest {
     @Test
     @DisplayName("Test getters and setters for student list")
     void testStudentListGetterAndSetter() {
-        s1= new Student("Robyn", 0, 0);
-        s2= new Student("Roisin", 0, 0);
+        s1= new Student("Robyn", 0, 0, null);
+        s2= new Student("Roisin", 0, 0, null);
 
         studentList= new ArrayList<Student>();
 
@@ -41,6 +44,21 @@ public class ProgrammeTest {
 
         course.setStudentList(studentList);
         assertEquals(studentList, course.getStudentList());
+    }
+    @Test
+    @DisplayName("Test getters and setters for student list")
+    void testModuleListGetterAndSetter() {
+        m1= new Module("Software engineering","CT417" );
+        m2= new Module("Object Oriented Programming", "CT222");
+
+        modList= new ArrayList<Module>();
+
+
+        modList.add(m1);
+        modList.add(m2);
+
+        course.setModuleList(modList);
+        assertEquals(modList, course.getModuleList());
     }
 
     @Test

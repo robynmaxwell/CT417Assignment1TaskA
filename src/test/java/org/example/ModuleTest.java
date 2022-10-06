@@ -15,7 +15,7 @@ public class ModuleTest {
 
     @BeforeEach
     void setUp() {
-        module1= new Module("Software Engineering", "CT417", null, null);
+        module1= new Module("Software Engineering", "CT417");
     }
 
     @Test

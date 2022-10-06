@@ -8,11 +8,10 @@ public class Module {
     public ArrayList<Student> studentList;
     public Lecturer lecturer;
 
-    public Module(String modName, String modID, ArrayList<Student> studentList, Lecturer lecturer) {
+    public Module(String modName, String modID) {
         this.lecturer=lecturer;
         this.modID=modID;
-        this.modName=modName;
-        this.studentList=studentList;
+
     }
 
     public String getModName() {

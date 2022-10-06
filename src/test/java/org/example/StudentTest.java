@@ -20,7 +20,7 @@ public class StudentTest {
 
     @BeforeEach
     void setUp() {
-        student1 = new Student("Robyn", 22, 1);
+        student1 = new Student("Robyn", 22, 1,  DateTime.parse("2000-06-01T00:00:00.000Z"));
 
     }
 
