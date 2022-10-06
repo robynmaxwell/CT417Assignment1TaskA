@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef9326c-d108-4542-b7a6-c695a4bce66a" name="Changes" comment="Changes to Modules class">
+    <list default="true" id="cef9326c-d108-4542-b7a6-c695a4bce66a" name="Changes" comment="&quot;Update Student&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Programme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Programme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665051747628</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;Updates&quot;">
+      <created>1665056230413</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665056230413</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;Update Student&quot;">
+      <created>1665056339324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665056339324</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;Update Student&quot;">
+      <created>1665056449167</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665056449167</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +221,8 @@
     <MESSAGE value="Finish TaskA" />
     <MESSAGE value="test push" />
     <MESSAGE value="Changes to Modules class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to Modules class" />
+    <MESSAGE value="&quot;Updates&quot;" />
+    <MESSAGE value="&quot;Update Student&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Update Student&quot;" />
   </component>
 </project>

@@ -6,7 +6,7 @@ import org.joda.time.DateTime;
 public class Programme {
 
     public String courseName;
-    public ArrayList<Student> studentList;
+    public ArrayList<Student> courseStudentList;
 
     public ArrayList<Modules> moduleList;
     public DateTime startDate;
@@ -27,10 +27,10 @@ public class Programme {
         this.courseName = courseName;
     }
     public ArrayList<Student> getStudentList() {
-        return studentList;
+        return courseStudentList;
     }
-    public void setStudentList(ArrayList<Student> studentList) {
-        this.studentList = studentList;
+    public void setStudentList(ArrayList<Student> courseStudentList) {
+        this.courseStudentList = courseStudentList;
     }
     public ArrayList<Modules> getModuleList() {
         return moduleList;
