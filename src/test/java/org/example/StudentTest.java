@@ -14,9 +14,7 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 public class StudentTest {
-
     Student student1;
-
 
     @BeforeEach
     void setUp() {
