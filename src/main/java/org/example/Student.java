@@ -21,7 +21,6 @@ public class Student {
         this.sID=sID;
         this.sAge=sAge;
         this.sDOB=sDOB;
-        this.sModuleList=sModuleList;
         this.sUsername= sName.concat(Integer.toString(sAge));
     }
 

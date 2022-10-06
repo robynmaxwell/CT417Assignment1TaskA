@@ -14,11 +14,11 @@ public class Lecturer {
     public ArrayList<Modules> moduleList;
 
 
-    public Lecturer(String lectName, int lectAge, int LectID, DateTime lectDOB ){
+    public Lecturer(String lectName, int lectAge, int lectID, DateTime lectDOB) {
         this.lectName= lectName;
         this.lectAge=lectAge;
-        this.lectDOB=lectDOB;
         this.lectID=lectID;
+        this.lectDOB=lectDOB;
         this.lectUsername= lectName.concat(Integer.toString(lectAge));
     }
 

@@ -31,7 +31,7 @@ public class LecturerTest {
     @Test
     @Order(2)
     @DisplayName("Test getters and setters for lecturer name")
-    void testlecturerNameGettersAndSetters() {
+    void testLecturerNameGettersAndSetters() {
         lecturer1.setLectName("Patrick");
         assertEquals("Patrick", lecturer1.getLectName());
     }
