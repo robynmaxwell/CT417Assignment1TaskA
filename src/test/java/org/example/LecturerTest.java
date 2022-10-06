@@ -54,10 +54,10 @@ public class LecturerTest {
     @Test
     @DisplayName("Test getters and setters for lecturer modules")
     void testLecturerModulesGettersAndSetters() {
-        Module mod1 = new Module("Fluid Mechanics", null, null, null);
-        Module mod2 = new Module("Thermodynamics", null, null, null);
+        Modules mod1 = new Modules("Fluid Mechanics", "1");
+        Modules mod2 = new Modules("Thermodynamics", "2");
 
-        ArrayList<Module> testModules= new ArrayList<>();
+        ArrayList<Modules> testModules= new ArrayList<>();
         testModules.add(mod1);
         testModules.add(mod2);
 

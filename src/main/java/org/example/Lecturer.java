@@ -11,10 +11,10 @@ public class Lecturer {
     public DateTime lectDOB;
     public int lectID;
     public String lectUsername;
-    public ArrayList<Module> moduleList;
+    public ArrayList<Modules> moduleList;
 
 
-    public Lecturer(String lectName, int lectAge, int LectID, DateTime lectDOB, ArrayList<Module> moduleList) {
+    public Lecturer(String lectName, int lectAge, int LectID, DateTime lectDOB, ArrayList<Modules> moduleList) {
         this.lectName= lectName;
         this.lectAge=lectAge;
         this.lectDOB=lectDOB;
@@ -75,12 +75,12 @@ public class Lecturer {
     }
 
 
-    public ArrayList<Module> getModuleList() {
+    public ArrayList<Modules> getModuleList() {
         return moduleList;
     }
 
 
-    public void setModuleList(ArrayList<Module> moduleList) {
+    public void setModuleList(ArrayList<Modules> moduleList) {
         this.moduleList = moduleList;
     }
 

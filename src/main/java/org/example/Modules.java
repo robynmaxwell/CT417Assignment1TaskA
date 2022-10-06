@@ -9,9 +9,8 @@ public class Modules {
     public Lecturer lecturer;
 
     public Modules(String modName, String modID) {
-        this.lecturer=lecturer;
+        this.modName=modName;
         this.modID=modID;
-
     }
 
     public String getModName() {
