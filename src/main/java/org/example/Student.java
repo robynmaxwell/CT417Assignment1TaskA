@@ -12,7 +12,7 @@ public class Student {
     public DateTime sDOB;
     public int sID;
     public String sUsername;
-    public ArrayList<Module> sModuleList;
+    public ArrayList<Modules> sModuleList;
     public ArrayList<Programme> sCourses;
 
 
@@ -76,12 +76,12 @@ public class Student {
     }
 
 
-    public ArrayList<Module> getModuleList() {
+    public ArrayList<Modules> getModuleList() {
         return sModuleList;
     }
 
 
-    public void setModuleList(ArrayList<Module> sModuleList) {
+    public void setModuleList(ArrayList<Modules> sModuleList) {
         this.sModuleList = sModuleList;
     }
 
