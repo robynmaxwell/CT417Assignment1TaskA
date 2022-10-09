@@ -85,6 +85,16 @@ public class Student {
         this.sModuleList = sModuleList;
     }
 
+
+    public ArrayList<Programme> getCourses() {
+        return sCourses;
+    }
+
+
+    public void setCourses(ArrayList<Programme> sCourses) {
+        this.sCourses = sCourses;
+    }
+
 }
 
 
