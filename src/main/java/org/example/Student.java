@@ -13,7 +13,7 @@ public class Student {
     public int sID;
     public String sUsername;
     public ArrayList<Modules> sModuleList;
-    public ArrayList<Programme> sCourses;
+    public Programme sCourses;
 
 
     public Student(String sName, int sAge, int sID, DateTime sDOB) {
@@ -86,12 +86,12 @@ public class Student {
     }
 
 
-    public ArrayList<Programme> getCourses() {
+    public Programme getCourses() {
         return sCourses;
     }
 
 
-    public void setCourses(ArrayList<Programme> sCourses) {
+    public void setCourses(Programme sCourses) {
         this.sCourses = sCourses;
     }
 
