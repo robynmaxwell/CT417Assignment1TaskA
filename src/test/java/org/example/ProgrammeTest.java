@@ -73,5 +73,6 @@ public class ProgrammeTest {
     void testCourseEndDateGetterAndSetter() {
         course.setEndDate(DateTime.parse("05-05-23"));
         assertEquals(DateTime.parse("05-05-23"), course.getEndDate());
+
     }
 }

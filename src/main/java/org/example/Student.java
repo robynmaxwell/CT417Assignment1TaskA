@@ -73,6 +73,7 @@ public class Student {
     public void setsUsername(String sName, int sAge) {
         String age= Integer.toString(sAge);
         this.sUsername = sName.concat(age);
+
     }
 
 

@@ -42,6 +42,7 @@ public class Modules {
     }
 
     public void setLecturer(Lecturer lecturer) {
+
         this.lecturer = lecturer;
     }
 

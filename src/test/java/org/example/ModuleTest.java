@@ -8,7 +8,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class ModuleTest {
-
     Modules module1;
     Lecturer l1;
     ArrayList<Student> sList;

@@ -1,7 +1,6 @@
 package org.example;
 
 import org.joda.time.DateTime;
-
 import java.util.ArrayList;
 
 public class Lecturer {

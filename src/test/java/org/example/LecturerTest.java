@@ -18,7 +18,6 @@ public class LecturerTest {
     @BeforeEach
     void setUp() {
         lecturer1 = new Lecturer("Ronan", 54, 1, null);
-
     }
 
     @Test
